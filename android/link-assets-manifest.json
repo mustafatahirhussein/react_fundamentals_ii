@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Gilroy-Bold.ttf",
+      "sha1": "5577ccbd7fdabd31d1d3c7b803079308b4da3e83"
+    },
+    {
+      "path": "assets/fonts/Michroma.ttf",
+      "sha1": "d618952898a3d150bc13a214ef2bc5d5cb282cd6"
+    }
+  ]
+}
