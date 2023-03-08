@@ -1,7 +1,6 @@
 import React from "react";
 import {View, Text, Alert, ImageBackground, Image, TouchableOpacity} from 'react-native';
 import AppButton from "../components/app_button";
-import DisabledButton from "../components/disabled_button";
 import TextField from "../components/textfields";
 import TextStyles from "../const/text_style";
 

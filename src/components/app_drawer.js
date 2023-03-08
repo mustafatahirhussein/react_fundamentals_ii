@@ -7,7 +7,7 @@ const Drawer = createDrawerNavigator();
 function AppDrawer() {
     return (
         <Drawer.Navigator>
-            <Drawer.Screen name='HomePage' component={HomePage}/>
+            <Drawer.Screen name='HomePage' component={HomePage} options={{headerShown: true}}/>
         </Drawer.Navigator>
     )
 }

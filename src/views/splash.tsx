@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import {View, Text} from 'react-native';
 
-const Splash = ({navigation}) => {
+const SplashView = ({navigation}) => {
 
         useEffect(() => {
             setTimeout(() => {
-                navigation.navigate('LoginView');
+                navigation.navigate('Parent');
             }, 4000)
         }, [])
     return (
@@ -15,4 +15,4 @@ const Splash = ({navigation}) => {
     )
 }
 
-export default Splash;
+export default SplashView;
