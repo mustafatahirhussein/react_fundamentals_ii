@@ -4,20 +4,10 @@ import AppButton from "../components/app_button";
 import TextField from "../components/textfields";
 import TextStyles from "../const/text_style";
 
-const RegisterView = ({navigation, route}) => {
-
-    const name = route.params.myname;
-
-    // return (
-    //     <View>
-    //         <Text>register view - {name}</Text>
-
-    //         <Button title="Go Back" onPress={() => {navigation.goBack();}}></Button>
-    //     </View>
-    // )
+const RegisterView = ({navigation}) => {
 
     return (
-        <View style={{alignItems: 'flex-start', padding: 20, width: '100%'}}>
+        <View style={{alignItems: 'center', padding: 20, width: '100%'}}>
 
             <Text style={TextStyles.h2Bold}>Register</Text>
             <TextField placeholder='Username' prefixIcon='email-outline'/>

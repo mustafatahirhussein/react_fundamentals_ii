@@ -19,7 +19,7 @@ const styles =  StyleSheet.create({
         backgroundColor: Colors.lightBlue,
         height: 45,
         width: width * 0.40,
-        marginVertical: 40,
+        marginVertical: 20,
         alignContent: 'center',
         justifyContent: 'center',
         borderRadius: 20,

@@ -3,13 +3,23 @@ import Colors from "./colors";
 
 const TextStyles = StyleSheet.create({
     h2Bold: {
-        fontSize: 28,
+        fontSize: 26,
         fontFamily: 'Michroma',
-        fontWeight: 400,
+        fontWeight: 'bold',
         color: Colors.black,
-        letterSpacing: 1.5,
+        letterSpacing: 2,
         textDecorationLine: 'underline',
-        marginVertical: 20
+        marginVertical: 20,
+        alignSelf: 'flex-start'
+    },
+    h4Normal: {
+        alignSelf:'flex-end',
+        marginTop: 5,
+        fontSize: 16,
+        fontStyle: 'italic',
+        fontWeight: 'bold',
+        color: Colors.black,
+        textDecorationLine: 'underline'
     }
 })
 
